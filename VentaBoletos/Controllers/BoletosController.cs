@@ -62,11 +62,20 @@ namespace VentaBoletos.Controllers
                 return BadRequest(new { mensaje = $"Lo sentimos, solo quedan {zona.LugaresDisponibles} lugares disponibles en esta zona." });
             }
 
-            // Calcular total y actualizar
-            boleto.TotalPagado = boleto.Cantidad * zona.Precio;
+            // --- CÁLCULOS FINANCIEROS Y DE IVA (16%) ---
+            decimal precioUnitario = zona.Precio;
+            decimal subtotal = precioUnitario * boleto.Cantidad;
+            decimal iva = subtotal * 0.16m;
+            decimal totalPagado = subtotal + iva;
+
+            // Asignar los montos calculados al modelo boleto
+            boleto.PrecioUnitario = precioUnitario;
+            boleto.Subtotal = subtotal;
+            boleto.IVA = iva;
+            boleto.TotalPagado = totalPagado;
             boleto.FechaCompra = DateTime.Now;
 
-            // Descontar de la zona
+            // Descontar inventario de la zona
             zona.LugaresDisponibles -= boleto.Cantidad;
 
             _context.Boletos.Add(boleto);

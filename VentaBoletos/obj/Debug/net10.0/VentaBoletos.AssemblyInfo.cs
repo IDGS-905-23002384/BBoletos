@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VentaBoletos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abed6e1e377e052b194d6d507c55e2aa67a8f429")]
 [assembly: System.Reflection.AssemblyProductAttribute("VentaBoletos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VentaBoletos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

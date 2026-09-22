@@ -72,6 +72,15 @@ namespace VentaBoletos.Migrations
                     b.Property<DateTime>("FechaCompra")
                         .HasColumnType("datetime2");
 
+                    b.Property<decimal>("IVA")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("PrecioUnitario")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("Subtotal")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<decimal>("TotalPagado")
                         .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
@@ -102,8 +111,7 @@ namespace VentaBoletos.Migrations
 
                     b.Property<string>("NombreZona")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Precio")
                         .HasPrecision(18, 2)
@@ -119,7 +127,7 @@ namespace VentaBoletos.Migrations
             modelBuilder.Entity("VentaBoletos.Models.Boleto", b =>
                 {
                     b.HasOne("VentaBoletos.Models.ZonaEvento", "ZonaEvento")
-                        .WithMany("Boletos")
+                        .WithMany()
                         .HasForeignKey("ZonaEventoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -141,11 +149,6 @@ namespace VentaBoletos.Migrations
             modelBuilder.Entity("Evento", b =>
                 {
                     b.Navigation("Zonas");
-                });
-
-            modelBuilder.Entity("VentaBoletos.Models.ZonaEvento", b =>
-                {
-                    b.Navigation("Boletos");
                 });
 #pragma warning restore 612, 618
         }
