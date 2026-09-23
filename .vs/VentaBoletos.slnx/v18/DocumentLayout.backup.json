@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{3A33E873-D789-63CB-D967-3A21EBB5F062}|VentaBoletos\\VentaBoletos.csproj|solutionrelative:ventaboletos\\controllers\\boletoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yair_\\Documents\\IDGS1005\\Aplicaciones Progresivas\\ReservaVuelos\\BBoletos\\VentaBoletos\\Migrations\\20260922170213_camposCostos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VentaBoletos\\Migrations\\20260922170213_camposCostos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A33E873-D789-63CB-D967-3A21EBB5F062}|VentaBoletos\\VentaBoletos.csproj|c:\\users\\yair_\\documents\\idgs1005\\aplicaciones progresivas\\reservavuelos\\bboletos\\ventaboletos\\models\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A33E873-D789-63CB-D967-3A21EBB5F062}|VentaBoletos\\VentaBoletos.csproj|solutionrelative:ventaboletos\\models\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,6 +43,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3A33E873-D789-63CB-D967-3A21EBB5F062}|VentaBoletos\\VentaBoletos.csproj|c:\\users\\yair_\\documents\\idgs1005\\aplicaciones progresivas\\reservavuelos\\bboletos\\ventaboletos\\ventaboletos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3A33E873-D789-63CB-D967-3A21EBB5F062}|VentaBoletos\\VentaBoletos.csproj|solutionrelative:ventaboletos\\ventaboletos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A33E873-D789-63CB-D967-3A21EBB5F062}|VentaBoletos\\VentaBoletos.csproj|c:\\users\\yair_\\documents\\idgs1005\\aplicaciones progresivas\\reservavuelos\\bboletos\\ventaboletos\\migrations\\20260922170213_camposcostos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A33E873-D789-63CB-D967-3A21EBB5F062}|VentaBoletos\\VentaBoletos.csproj|solutionrelative:ventaboletos\\migrations\\20260922170213_camposcostos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,12 +80,11 @@
               "RelativeToolTip": "VentaBoletos\\Controllers\\BoletosController.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAADwv1cAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T04:02:46.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T04:02:46.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yair_\\Documents\\IDGS1005\\Aplicaciones Progresivas\\ReservaVuelos\\BBoletos\\VentaBoletos\\Program.cs",
               "RelativeDocumentMoniker": "VentaBoletos\\Program.cs",
@@ -93,12 +92,11 @@
               "RelativeToolTip": "VentaBoletos\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T03:51:13.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T03:51:13.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\yair_\\Documents\\IDGS1005\\Aplicaciones Progresivas\\ReservaVuelos\\BBoletos\\VentaBoletos\\appsettings.json",
               "RelativeDocumentMoniker": "VentaBoletos\\appsettings.json",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "VentaBoletos\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-22T03:50:18.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T03:50:18.268Z"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "VentaBoletos\\Controllers\\EventosController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAA7wCAAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T04:02:19.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T04:02:19.508Z"
             },
             {
               "$type": "Document",
@@ -137,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "20260922170213_camposCostos.cs",
               "DocumentMoniker": "C:\\Users\\yair_\\Documents\\IDGS1005\\Aplicaciones Progresivas\\ReservaVuelos\\BBoletos\\VentaBoletos\\Migrations\\20260922170213_camposCostos.cs",
               "RelativeDocumentMoniker": "VentaBoletos\\Migrations\\20260922170213_camposCostos.cs",
@@ -145,12 +141,11 @@
               "RelativeToolTip": "VentaBoletos\\Migrations\\20260922170213_camposCostos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T17:02:13.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T17:02:13.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\yair_\\Documents\\IDGS1005\\Aplicaciones Progresivas\\ReservaVuelos\\BBoletos\\VentaBoletos\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "VentaBoletos\\Models\\ApplicationDbContext.cs",
@@ -158,12 +153,11 @@
               "RelativeToolTip": "VentaBoletos\\Models\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T03:54:31.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T03:54:31.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Boleto.cs",
               "DocumentMoniker": "C:\\Users\\yair_\\Documents\\IDGS1005\\Aplicaciones Progresivas\\ReservaVuelos\\BBoletos\\VentaBoletos\\Models\\Boleto.cs",
               "RelativeDocumentMoniker": "VentaBoletos\\Models\\Boleto.cs",
@@ -171,12 +165,11 @@
               "RelativeToolTip": "VentaBoletos\\Models\\Boleto.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAA2wBkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T03:54:10.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T03:54:10.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "20260922044842_ActualizacionModelos.cs",
               "DocumentMoniker": "C:\\Users\\yair_\\Documents\\IDGS1005\\Aplicaciones Progresivas\\ReservaVuelos\\BBoletos\\VentaBoletos\\Migrations\\20260922044842_ActualizacionModelos.cs",
               "RelativeDocumentMoniker": "VentaBoletos\\Migrations\\20260922044842_ActualizacionModelos.cs",
@@ -188,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "VentaBoletos.csproj",
               "DocumentMoniker": "C:\\Users\\yair_\\Documents\\IDGS1005\\Aplicaciones Progresivas\\ReservaVuelos\\BBoletos\\VentaBoletos\\VentaBoletos.csproj",
               "RelativeDocumentMoniker": "VentaBoletos\\VentaBoletos.csproj",
@@ -200,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "20260922044730_ActualizacionModelos.cs",
               "DocumentMoniker": "C:\\Users\\mayra\\Desktop\\DMI 10\\VSVentaBoletos\\VentaBoletos\\VentaBoletos\\Migrations\\20260922044730_ActualizacionModelos.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\mayra\\Desktop\\DMI 10\\VSVentaBoletos\\VentaBoletos\\VentaBoletos\\Migrations\\20260922044730_ActualizacionModelos.cs",
@@ -212,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "20260922035721_InicialCreacion.cs",
               "DocumentMoniker": "C:\\Users\\mayra\\Desktop\\DMI 10\\VSVentaBoletos\\VentaBoletos\\VentaBoletos\\Migrations\\20260922035721_InicialCreacion.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\mayra\\Desktop\\DMI 10\\VSVentaBoletos\\VentaBoletos\\VentaBoletos\\Migrations\\20260922035721_InicialCreacion.cs",
